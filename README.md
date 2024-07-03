@@ -106,8 +106,11 @@ Tests
 
 The project includes unit tests to ensure the functionality of core components. Run tests using Maven:
 bash
-Copy code
+
+```
 mvn test
+
+
 Dependencies
 
 MySQL Connector Java 8.0.32
@@ -116,8 +119,6 @@ Lombok 1.18.32
 JUnit Jupiter 5.8.2
 AssertJ Core 3.22.0
 Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
 
 License
 
