@@ -53,6 +53,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 
+   ```html
    ```bash
    git clone https://github.com/yourusername/Student-Management-Program.git
 
@@ -99,9 +100,9 @@ Ensure you have the following installed:
 
    ```bash
   mvn clean install
-
   
-##Database Setup
+### Database Setup
+
 1. Create a MySQL database named student_management.
 
 2. Configure the database connection settings in src/main/resources/application.properties:
@@ -115,42 +116,49 @@ spring.datasource.password=password
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
 spring.jpa.hibernate.ddl-auto = update
+
+
 Adjust spring.datasource.username and spring.datasource.password with your MySQL credentials.
 
-Usage
+## Usage
 
 ## Running the Application
-Run the application:
+  1. Run the application:
 
-bash
-Copy code
+   ```bash
 mvn exec:java -Dexec.mainClass="org.example.Main"
-Follow the prompts to interact with the application:
 
-Enter student email and password to log in.
-View available courses and register for a course.
-Example Scenarios
-Logging in: Enter a valid student email and password.
-Viewing Courses: After logging in, choose option 1 to view available courses.
-Registering for a Course: Select a course by its ID to register.
-Tests
+
+2. Follow the prompts to interact with the application:
+  * Enter student email and password to log in.
+  * View available courses and register for a course.
+
+## Example Scenarios
+  * Logging in: Enter a valid student email and password.
+  * Viewing Courses: After logging in, choose option 1 to view available courses.
+  * Registering for a Course: Select a course by its ID to register.
+
+### Tests
 
 The project includes unit tests to ensure the functionality of core components. Run tests using Maven:
 
-bash
-Copy code
+   ```bash
 mvn test
-Dependencies
+
+
+### Dependencies
 
 MySQL Connector Java 8.0.32
 Hibernate Core 5.5.2.Final
 Lombok 1.18.32
 JUnit Jupiter 5.8.2
 AssertJ Core 3.22.0
-Contributing
+
+
+### Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
 
-License
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
