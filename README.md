@@ -1,4 +1,5 @@
-Student Management Program
+### Student Management Program
+
 The Student Management Program is a Java-based application for managing students and courses. It provides functionalities for student authentication, course registration, and viewing enrolled courses through a command-line interface (CLI).
 
 Table of Contents
@@ -17,11 +18,13 @@ Tests
 Dependencies
 Contributing
 License
-Introduction
+
+
+## Introduction
 
 The Student Management Program allows students to log in, view available courses, and register for courses of interest. It is built using Java, MySQL for data storage, and Hibernate ORM for database interactions. The project also integrates with Lombok for reducing boilerplate code and uses JUnit and AssertJ for unit testing.
 
-Features
+## Features
 
 User Authentication: Students can authenticate using their email and password.
 Course Management: Students can view available courses and register for them.
@@ -37,21 +40,25 @@ Service Layer: Business logic encapsulated in StudentService.java and CourseServ
 Data Access Layer: Uses Hibernate for interacting with the MySQL database (Student.java, Course.java).
 Setup
 
-Prerequisites
+### Prerequisites
 
 Ensure you have the following installed:
 
-Java Development Kit (JDK) 16 or higher
-Apache Maven
-MySQL database server
-Installation
+* Java Development Kit (JDK) 16 or higher
+* Apache Maven
+* MySQL database server
 
-Clone the repository:
+### Installation
 
+## Clone the repository:
+
+copy code ``` bash
 git clone https://github.com/yourusername/Student-Management-Program.git
+
+
 The Student Management Program allows students to log in, view available courses, and register for courses of interest. It is built using Java, MySQL for data storage, and Hibernate ORM for database interactions. The project also integrates with Lombok for reducing boilerplate code and uses JUnit and AssertJ for unit testing.
 
-Features
+### Features
 
 User Authentication: Students can authenticate using their email and password.
 Course Management: Students can view available courses and register for them.
@@ -62,24 +69,28 @@ Architecture
 
 The project follows a layered architecture pattern:
 
-Presentation Layer: CLI interface (Main.java) for user interaction.
-Service Layer: Business logic encapsulated in StudentService.java and CourseService.java.
-Data Access Layer: Uses Hibernate for interacting with the MySQL database (Student.java, Course.java).
-Setup
+*Presentation Layer: CLI interface (Main.java) for user interaction.
+*Service Layer: Business logic encapsulated in StudentService.java and CourseService.java.
+*Data Access Layer: Uses Hibernate for interacting with the MySQL database (Student.java, Course.java).
 
-Prerequisites
+###Setup
 
-Ensure you have the following installed:
+##Prerequisites
 
-Java Development Kit (JDK) 16 or higher
-Apache Maven
-MySQL database server
-Installation
+#Ensure you have the following installed:
+
+*Java Development Kit (JDK) 16 or higher
+*Apache Maven
+*MySQL database server
+*Installation
 
 Clone the repository:
 
+```bash
 git clone https://github.com/yourusername/Student-Management-Program.git
-Navigate to the project directory:
+
+
+#Navigate to the project directory:
 
 cd Student-Management-Program
 
@@ -87,14 +98,15 @@ Build the project using Maven:
 
 mvn clean install
 
-Database Setup
+### Database Setup
 
-Create a MySQL database named student_management.
+## Create a MySQL database named student_management.
 
-Configure the database connection settings in src/main/resources/application.properties:
+## Configure the database connection settings in src/main/resources/application.properties:
 
-properties
+### properties
 
+```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/student_management
 spring.datasource.username=root
 spring.datasource.password=password
@@ -137,11 +149,6 @@ Hibernate Core 5.5.2.Final
 Lombok 1.18.32
 JUnit Jupiter 5.8.2
 AssertJ Core 3.22.0
-
-
-### Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
 
 ### License
 
