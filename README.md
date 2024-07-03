@@ -53,7 +53,6 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 
-   ```html
    ```bash
    git clone https://github.com/yourusername/Student-Management-Program.git
 
@@ -118,7 +117,7 @@ spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL8Dialect
 spring.jpa.hibernate.ddl-auto = update
 
 
-Adjust spring.datasource.username and spring.datasource.password with your MySQL credentials.
+# Adjust spring.datasource.username and spring.datasource.password with your MySQL credentials.
 
 ## Usage
 
@@ -140,7 +139,7 @@ mvn exec:java -Dexec.mainClass="org.example.Main"
 
 ### Tests
 
-The project includes unit tests to ensure the functionality of core components. Run tests using Maven:
+# The project includes unit tests to ensure the functionality of core components. Run tests using Maven:
 
    ```bash
 mvn test
