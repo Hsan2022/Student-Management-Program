@@ -90,23 +90,25 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/Student-Management-Program.git
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-bash
-Copy code
-cd Student-Management-Program
-Build the project using Maven:
+   ```bash
+  cd Student-Management-Program
 
-bash
-Copy code
-mvn clean install
+3. Build the project using Maven:
+
+   ```bash
+  mvn clean install
+
+  
 ##Database Setup
-Create a MySQL database named student_management.
+1. Create a MySQL database named student_management.
 
-Configure the database connection settings in src/main/resources/application.properties:
+2. Configure the database connection settings in src/main/resources/application.properties:
 
 ## properties
-Copy code
+
+   ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/student_management
 spring.datasource.username=root
 spring.datasource.password=password
