@@ -122,7 +122,7 @@ The project includes unit tests to ensure the functionality of core components. 
 mvn test
 ``` 
 
-Dependencies
+## Dependencies
 
 - **MySQL Connector Java 8.0.32
 - **Hibernate Core 5.5.2.Final
