@@ -124,8 +124,10 @@ mvn test
 
 ## Dependencies
 
-- **MySQL Connector Java 8.0.32
-- **Hibernate Core 5.5.2.Final
-- **Lombok 1.18.32
-- **JUnit Jupiter 5.8.2
-- **AssertJ Core 3.22.0
+- **MySQL Connector Java** 8.0.32
+- **Hibernate Core** 5.5.2.Final
+- **Lombok** 1.18.32
+- **JUnit Jupiter** 5.8.2
+- **AssertJ Core** 3.22.0
+
+
