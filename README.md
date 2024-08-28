@@ -45,7 +45,7 @@ The project follows a layered architecture pattern:
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Ensure the following are installed:
 
 - Java Development Kit (JDK) 16 or higher
 - Apache Maven
