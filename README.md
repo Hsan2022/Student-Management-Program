@@ -55,10 +55,6 @@ Ensure you have the following installed:
 
 ## Clone the repository:
 
-copy code ``` bash
-git clone https://github.com/yourusername/Student-Management-Program.git
-
-
 1. Clone the repository:
 
     ```bash
